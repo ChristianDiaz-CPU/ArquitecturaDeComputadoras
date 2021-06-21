@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>UNIDAD IV</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/hoja2.css" type="text/css">
+<link rel="shortcut icon" type="image/x-icon" href="imagenes/extras/12630.png" />
+</head>
+<body>
+  <div class="wrapper row1">
+    <header id="header" class="clear">
+      <div id="hgroup">
+        <h1><a href="index.html">Arquitectura de Computadoras</a></h1>
+        <h2>Christian Uriel Diaz Espinoza</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="disco.html">UNIDAD I</a></li>
+          <li><a href="folk.html">unidad ii</a></li>
+          <li><a href="indie.html">unidad iii</a></li>
+          <li><a href="rock.html">unidad iv</a></li>
+          <li><a href="contacto.html">EXTRAS</a></li>
+          <li class="last"></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- Slider -->
+    <section id="slider" class="clear">
+      <figure><a href="https://es.wikipedia.org/wiki/Indie_rock"><img src="imagenes/indie/12630.png" alt=""></a>
+        <figcaption>
+          <h2>Procesamiento Paralelo</h2>
+</figcaption>
+      </figure>
+    </section>
+      <section class="clear">
+        <!-- article 1 -->
+        <!-- <article class="two_quarter"> -->
+        <h1><strong>4.1 Aspectos Básicos de la computación paralela</strong></h1>
+        <p><strong>La computación paralela es una forma de cómputo en la que muchas instrucciones se ejecutan simultáneamente,1 operando sobre el principio de que problemas grandes, a menudo se pueden dividir en unos más pequeños, que luego son resueltos simultáneamente (en paralelo). Hay varias formas diferentes de computación paralela: paralelismo a nivel de bit, paralelismo a nivel de instrucción, paralelismo de datos y paralelismo de tareas. El paralelismo se ha empleado durante muchos años, sobre todo en la computación de altas prestaciones, pero el interés en ella ha crecido últimamente debido a las limitaciones físicas que impiden el aumento de la frecuencia.</strong></p>
+      </section>
+		
+        <h1><strong>4.2 Tipos de computación paralela</strong></h1>
+        <p><strong>Desde el advenimiento de la integración a gran escala (VLSI) como tecnología de fabricación de chips de computadora en la década de 1970 hasta alrededor de 1986, la aceleración en la arquitectura de computadores se lograba en gran medida duplicando el tamaño de la palabra en la computadora, la cantidad de información que el procesador puede manejar por ciclo.18 El aumento del tamaño de la palabra reduce el número de instrucciones que el procesador debe ejecutar para realizar una operación en variables cuyos tamaños son mayores que la longitud de la palabra.</strong></p>
+		
+        <h1><strong>4.2.1 Taxonomía de las arquitecturas paralelas</strong></h1>
+        <p><strong>El primer paso hacia la paralelización de las arquitecturas de los computadores, se da con la aparición de los procesadores o sistemas vectoriales. Los procesadores vectoriales extienden el concepto de paralelismo por segmentación al tratamiento de grandes cadenas de datos. </strong></p>
+		
+        <h1><strong>4.2.2 Arquitectura de los computadores secuenciales</strong></h1>
+        <p><strong>A diferencia de los sistemas combinacionales, en los sistemas secuenciales, los valores de las salidas, en un momento dado, no dependen exclusivamente de los valores de las entradas en dicho momento, sino también de los valores anteriores. El sistema secuencial más simple es el biestable. La mayoría de los sistemas secuenciales están gobernados por señales de reloj. A éstos se los denomina "síncronos" o "sincrónicos", a diferencia de los "asíncronos" o "asincrónicos" que son aquellos que no son controlados por señales de reloj.</strong></p>
+		
+        <h1><strong>4.2.2.1 Taxonomía de Flynn</strong></h1>
+        <p><strong>Probablemente la clasificación más popular de computadores sea la clasificación de Flynn. Esta taxonomía de las arquitecturas está basada en la clasificación atendiendo al flujo de datos e instrucciones en un sistema. Un flujo de instrucciones es el conjunto de instrucciones secuenciales que son ejecutadas por un único procesador, y un flujo de datos es el flujo secuencial de datos requeridos por el flujo de instrucciones.</strong></p>
+		
+        <h1><strong>4.2.2.2 Organización del espacio de direcciones de memoria</strong></h1>
+        <p><strong>Los programas a menudo están organizados en módulos, algunos de los cuales pueden ser compartidos por diferentes programas, algunos son de sólo-lectura y otros contienen datos que se pueden modificar. La gestión de memoria es responsable de manejar esta organización lógica, que se contrapone al espacio de direcciones físicas lineales. Una forma de lograrlo es mediante la segmentación de memoria.</strong></p>
+		
+        <h1><strong>4.3 Sistemas de memoria compartida: Multiprocesadores </strong></h1>
+        <p><strong>Cada procesador posee su propia unidad de control ejecuta su propio código sobre sus propios datos, puede ejecutar cualquier aplicación (no solo programas vectoriales),la memoria compartida por todos los procesadores y accesible desde cualquiera. Descompuesta en varios módulos para permitir el acceso concurrente de varios procesadores Cada procesador debe tener un espacio de direccionamiento suficientemente amplio como para poder direccionarla completamente. Multiprocesador con un sistema de memoria compartida en el cual el tiempo de acceso varía dependiendo de la ubicación de la palabra de memoria.</strong></p>
+		
+        <h1><strong>4.3.1 Redes de interconexión dinámicas o indirectas</strong></h1>
+        <p><strong>El criterio más importante para la clasificación de las redes de interconexión se basa en la rigidez de los enlaces entre los nodos: a este respecto a las redes pueden clasificarse en estáticas o dinámicas. Una red estática se caracteriza porque su topología queda establecida de forma definitiva y estable cuando se instala un sistema; su única posibilidad de modificación es crecer. Por el contrario, una red dinámica puede variar de topología bien durante el curso de la ejecución o de los procesos o bien entre la ejecución de los mismos.</strong></p>
+	  
+        <h1><strong>4.3.1.1 Redes de medio compartido</strong></h1>
+        <p><strong>Ocurre cuando varios host tiene acceso al mismo medio. Por ejemplo, si varios PC se encuentran conectados al mismo cable físico, a la misma fibra óptica entonces se dice que comparten el mismo entorno de medios.</strong></p>
+	  
+	    <h1><strong>4.3.1.2 Redes conmutadas</strong></h1>
+        <p><strong>Consiste en un conjunto de nodos interconectados entre si, a través de medios de transmisión, formando la mayoría de las veces una topología mallada, donde la información se transfiere encaminándola del nodo de origen al nodo destino mediante conmutación entre nodos intermedios.</strong></p>
+	  
+	  	<h1><strong>4.3.2 Coherencia de cache</strong></h1>
+        <p><strong>La coherencia de cache hace referencia a la integridad de los datos almacenados en las caches locales de los recursos compartidos. La coherencia de la cache es un caso especial de la coherencia de memoria, Cuando los clientes de un sistema, en particular las CPUs en un multiprocesador, mantienen caches de una memoria compartida, los conflictos crecen. Haciendo referencia al dibujo, si el cliente de arriba tiene una copia de un bloque de memoria de una lectura previa y el cliente de abajo cambia ese bloque, el cliente de arriba podría estar trabajando con datos erróneos, sin tener conocimiento de ello. La coherencia de la cache intenta administrar estos conflictos y mantener consistencia entre las caches y la memoria.</strong></p>
+	  
+	  	<h1><strong>4.4 Sistemas de memoria distribuida. Multicomputadores</strong></h1>
+	    <h1><strong>Clusters</strong></h1>
+        <p><strong>Un cluster es una tipo de arquitectura paralela distribuida que consiste de un conjunto de computadores independientes (y bajo coste en principio) interconectados operando de forma conjunta como un único recurso computacional.</strong></p>
+	  
+	  	<h1><strong>4.4.1 Redes de interconexión estáticas </strong></h1>
+	    <h1><strong>4.4.2 Cluster </strong></h1>
+        <p><strong>El término clúster (del inglés cluster, "grupo" o "racimo") se aplica a los conjuntos o conglomerados de computadoras construidos mediante la utilización de hardwares comunes y que se comportan como si fuesen una única computadora. La tecnología de clústeres ha evolucionado en apoyo de actividades que van desde aplicaciones de supercómputo y software de misiones críticas, servidores web y comercio electrónico, hasta bases de datos de alto rendimiento, entre otros usos.</strong></p>
+	  
+	  	<h1><strong>4.4.3 Programación de clusters</strong></h1>
+        <p><strong>Programación paralela: estos cluster están diseñados y optimizados para correr programas paralelos. En este caso, los programas tienen que ser hechos específicamente para funcionar en forma paralela. Típicamente estos programas son modelos que requieren realizar gran cantidad de cálculos numéricos. La ventaja de programarlos de esta manera y correrlos en un cluster es que se reducen drásticamente los tiempos de proceso. En el caso de modelos meteorológicos usados para predecir el tiempo es obvia la necesidad de correrlos en tiempo mínimo.</strong></p>
+
+	  	<h1><strong>4.4.4 Consideraciones sobre el rendimiento de los clusters</strong></h1>
+        <p><strong>Un cluster de alto rendimiento es un conjunto de ordenadores que está diseñado para dar altas prestaciones en cuanto a capacidad de cálculo. Los motivos para utilizar un cluster de alto rendimiento son:</strong></p>
+	    <p><strong>El tamaño del problema por resolver</strong></p>
+	    <p><strong>El precio de la máquina necesaria para resolverlo</strong></p>
+	    <p><strong>Por medio de un cluster se pueden conseguir capacidades de cálculo superiores a las de un ordenador más caro que el costo conjunto de los ordenadores del cluster. Ejemplo de clusters baratísimos son los que se están realizando en algunas universidades con computadoras personales desechados por "anticuados" que consiguen competir en capacidad de cálculo con superordenadores carísimos. Para garantizar esta capacidad de cálculo, los problemas necesitan ser paralelizables, ya que el método con el que los clusters agilizan el procesamiento es dividir el problema en problemas más pequeños y calcularlos en los nodos, por lo tanto, si el problema no cumple con esta característica, no puede utilizarse el cluster para su cálculo.</strong></p>
+
+    </div>
+	  
+</div>
+       <div class="wrapper row3">
+         <footer id="footer" class="clear">
+           <p class="fl_left">Copyright &copy; 2021 - Todos los derechos reservados</p>
+           <p class="fl_right"><a href="#">Christian Uriel Diaz Espinoza</a></p>
+         </footer>
+</div>
+</body>
+</html>
